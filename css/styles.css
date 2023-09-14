@@ -48,22 +48,10 @@ button {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.container .header-inner {
-  display: flex;
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: 0;
-  margin-right: 0;
-}
-
 .header-inner {
   display: flex;
   justify-content: space-between;
-  padding: 24px 0 24px;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
+  align-items: center;
 }
 
 .header-list {
@@ -117,8 +105,6 @@ button {
 }
 
 .address {
-  padding-top: 24px;
-  padding-bottom: 24px;
   font-style: normal;
 }
 
@@ -144,14 +130,6 @@ button {
   padding-bottom: 188px;
 }
 
-.container-hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-}
-
 .hero-title {
   max-width: 496px;
   color: #fff;
@@ -160,6 +138,7 @@ button {
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
   text-align: center;
+  margin: 0 auto;
   margin-bottom: 48px;
 }
 
@@ -176,6 +155,7 @@ button {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
+  margin: 0 auto;
 }
 
 .hero-button:hover,
